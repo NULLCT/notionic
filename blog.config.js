@@ -1,6 +1,6 @@
 const BLOG = {
   title: 'Notionic',
-  author: '左蓝',
+  author: 'nullct',
   email: 'i@zuolan.me',
   link: 'https://zuolan.me',
   newsletter: 'Notionic Weekly',
