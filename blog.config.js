@@ -1,10 +1,10 @@
 const BLOG = {
-  title: 'Notionic',
-  author: 'nullct',
-  email: 'i@zuolan.me',
+  title: 'NULLCT',
+  author: 'NULLCT',
+  email: 'cockatiel.u10@gmail.com',
   link: 'https://zuolan.me',
-  newsletter: 'Notionic Weekly',
-  description: 'A static blog build on top of Notion and Next.js',
+  newsletter: 'NULLCT',
+  description: 'NULLCT portfolio',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: 'auto', // ['light', 'dark', 'auto'],
@@ -29,9 +29,9 @@ const BLOG = {
   ogImageGenerateHost: 'og-zl.vercel.app', // The link to generate OG image, don't end with a slash
   defaultCover: '/cover.jpg',
   socialLink: {
-    twitter: 'https://twitter.com/izuolan',
-    github: 'https://github.com/izuolan',
-    telegram: 'https://t.me/zuolan'
+    twitter: 'https://twitter.com/nullct_',
+    github: 'https://github.com/nullct',
+    telegram: 'https://t.me/nulct'
   },
   seo: {
     keywords: ['Notionic', 'Zuolan', 'Blog'],
