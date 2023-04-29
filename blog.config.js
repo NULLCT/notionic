@@ -23,6 +23,7 @@ const BLOG = {
     books: true,
     friends: true
   },
+  showWeChatPay: false,
   previewImagesEnabled: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   ogImageGenerateHost: 'og-zl.vercel.app', // The link to generate OG image, don't end with a slash
@@ -40,6 +41,10 @@ const BLOG = {
   notionSpacesId: process.env.NOTION_SPACES_ID, // DO NOT CHANGE THIS! Edit .env file!
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
   notionDomain: 'izuolan.notion.site',
+  telegramToken: process.env.TELEGRAM_TOKEN, // The token of your Telegram bot
+  telegramChatId: '263895784', // The chat id of your Telegram bot
+  telegramChannelUrl: 'https://channel.zuolan.me/', // The link of your Telegram channel
+  telegramChannelName: 'zuolan_me', // The name of your Telegram channel
   craftConfigShareUrl: 'https://www.craft.do/s/kQtcWqkv98cHhB', // The link to share your craft config
   analytics: {
     provider: '', // Currently we support Google Analytics, Ackee, Umami and Cloudflare Insights, please fill with 'ga' or 'ackee' or 'umami' or 'cf', leave it empty to disable it.
