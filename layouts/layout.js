@@ -22,7 +22,6 @@ const Layout = ({ blockMap, frontMatter, fullWidth = false, subPage = false }) =
     <Container
       title={`${frontMatter.title}${frontMatter.title === pageTitle ? '' : ' | ' + pageTitle}`}
       description={frontMatter.summary}
-      // date={new Date(frontMatter.publishedAt).toISOString()}
       type='article'
       fullWidth={fullWidth}
     >

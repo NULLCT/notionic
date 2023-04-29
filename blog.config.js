@@ -7,7 +7,7 @@ const BLOG = {
   description: 'NULLCT portfolio',
   lang: 'ja-JP', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Tokyo', // See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
-  appearance: 'dark', // ['light', 'dark', 'auto'],
+  appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#F6F8FA', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#212936', // use hex value, don't forget '#'
@@ -37,9 +37,9 @@ const BLOG = {
     keywords: ['NULLCT', 'Blog'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
-  notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS! Edit .env file!
-  notionSpacesId: process.env.NOTION_SPACES_ID, // DO NOT CHANGE THIS! Edit .env file!
-  notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
+  notionPageId: '24efa74c71124d4cb2daea2b3dee3459', // DO NOT CHANGE THIS! Edit .env file!
+  notionSpacesId: 'c93b9441bd3c4b288d48284576023e59', // DO NOT CHANGE THIS! Edit .env file!
+  notionAccessToken: null, // Useful if you prefer not to make your database public
   notionDomain: 'nullct.notion.site',
   telegramToken: process.env.TELEGRAM_TOKEN, // The token of your Telegram bot
   telegramChatId: '263895784', // The chat id of your Telegram bot
